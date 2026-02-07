@@ -16,3 +16,7 @@ swift run HelloWorld
 ## What you'll see
 
 The app opens a window that displays "Hello, World!" and a button. Clicking the button updates the greeting text.
+
+## Resolving merge conflicts
+
+If git reports conflicts in `README.md` or `Sources/HelloWorld/main.swift`, keep the SwiftUI app description in this README and the `@main` SwiftUI entry point in `main.swift`, then remove any conflict markers before rebuilding.
